@@ -1,0 +1,211 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {
+    background-image: url('Banner.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top; 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    backface-visibility: visible;
+     }
+    
+/*For side navigation buttons. */
+    
+ .sidebar {
+  margin: 0;
+  margin-left: 290px;
+  padding: 0px;
+  width: 200px;
+  background-color: #001a33;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  
+}
+ 
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color:  lightblue;
+  color: black;
+}
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+   
+    
+    
+/*For the search bar */
+    
+ .topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+  margin-left: 590px;
+  margin-right: 400px;
+  background-position: top;
+ }
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+   .topnav .search-container button:hover {
+  background: #ccc;
+      }
+   
+    
+    
+    /*For the stamp image.*/
+  
+   div.gallery
+    {
+  margin-left: 800px;
+  border: 1px solid black;
+  width: 180px;
+    }
+  div.gallery img 
+    {
+  width: 100%;
+  height: auto;
+    }
+    
+    
+    
+
+</style>
+</head>
+<body>
+    
+    
+    <br><br><br><br><br><br><br><br>
+     <div class="sidebar">
+     <a class="active" href="homepage.html">Home</a>
+     <a href="LogIn.html">Login</a>
+     <a href="signup.html">Sign up</a>
+     <a class="active" href="homepage.html">Introduction</a>
+     <a href="stampcollecting.html">Stamp Collecting</a>
+     <a href="essentialsupplies.html">Essential Supplies</a>
+     <a class="active" href="#">Collections</a>
+     <a href="asia.html">Asia</a>
+     <a href="america.html">America</a>
+     <a href="australia.html">Australia</a>
+     <a href="europe.html">Europe</a>
+     </div>
+    
+    
+     <div class="topnav">
+     <a class="#about" href="www.google.com">Google custom search</a>
+         <div class="search-container">
+    <form action="/action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+         </div>
+    </div>
+
+    
+    
+    <br><br><br><br>
+    <div style="padding-left:500px">
+        <div style="padding-right:250px">
+    <h2><center>Essential Stamp Supplies </center></h2>
+        
+    <p>This section addresses all of the stamp supplies essential to pursuing the hobby, whether one is a beginner or an advanced philatelist.
+    In comparison, say someone wanted to start playing golf. They would need to buy golf clubs, a bag with a wheel cart, shoes, golf balls, tees, etc. And then there are the course fees, every time you play.</p>
+        
+        </div>
+    </div>
+    
+    
+    
+    <div class="gallery">
+    <img src="stampsupplies.jpg" alt="Antique Stamp" width="600" height="600">
+    </div>
+    
+    <div style="padding-left:500px">
+         <div style="padding-right:250px">
+    <p>he essential tools you will need are stamp hinges or mounts, stamp tongs, magnifying glass, glassine envelopes, watermark detector, a perforation gauge, a stamp catalog for the particular area being collected, and a stamp album or stockbook to house your stamps.
+
+    Information on stamp albums and stamp catalogs will be found in other sections of this site. Stamp hinges, stamp mounts, stamp tongs, magnifying glasses, watermark detectors, perforation gauges, and glassine envelopes will be discussed
+ </p>
+        </div>
+    </div>
+
+    
+
+
+</body>
+</html>
